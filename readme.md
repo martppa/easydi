@@ -1,7 +1,7 @@
-# Project Title
+# EasyDI
 
 Simple service locator for Java.
 
 ## Description
 
-A service locator intended to provide dependencies to small projects or for learning purposes.
+EaseyDI is a service locator intended to provide dependencies to small projects or for learning purposes.
