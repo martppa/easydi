@@ -1,7 +1,5 @@
 package com.madapp.easydi.lib
 
-import java.lang.Exception
-
 val beacons: MutableMap<String, Beacon> = mutableMapOf()
 fun key(clazz: String, name: String) = "${clazz}__$name"
 
@@ -16,7 +14,7 @@ inline fun <reified T : Any> register(
 inline fun <reified T> inject(name: String = String.empty()): T {
     val key = key(T::class.java.name, name)
     val beacon = beacons[key]
-        ?: throw Exception("No definition for $key")
+        ?: throw BeaconNotFoundException(key)
     return beacon.invoke() as T
 }
 
