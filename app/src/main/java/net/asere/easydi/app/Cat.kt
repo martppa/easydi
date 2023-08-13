@@ -1,7 +1,6 @@
-package com.madapp.easydi.app
+package net.asere.easydi.app
 
 import android.util.Log
-import com.madapp.easydi.app.Animal
 
 class Cat : Animal() {
     override fun makeSound() {

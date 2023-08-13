@@ -1,4 +1,4 @@
-package com.madapp.easydi.app
+package net.asere.easydi.app
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

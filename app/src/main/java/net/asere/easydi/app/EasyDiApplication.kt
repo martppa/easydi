@@ -1,8 +1,8 @@
-package com.madapp.easydi.app
+package net.asere.easydi.app
 
 import android.app.Application
-import com.madapp.easydi.lib.inject
-import com.madapp.easydi.lib.register
+import net.asere.easydi.lib.inject
+import net.asere.easydi.lib.register
 
 class EasyDiApplication : Application() {
 

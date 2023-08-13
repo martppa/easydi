@@ -1,4 +1,4 @@
-package com.madapp.easydi.app
+package net.asere.easydi.app
 
 abstract class Animal {
     abstract fun makeSound()

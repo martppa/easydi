@@ -1,4 +1,4 @@
-package com.madapp.easydi.lib
+package net.asere.easydi.lib
 
 val beacons: MutableMap<String, Beacon> = mutableMapOf()
 fun key(clazz: String, name: String) = "${clazz}__$name"

@@ -1,4 +1,4 @@
-package com.madapp.easydi.lib
+package net.asere.easydi.lib
 
 class SingleBeacon(builder: () -> Any) : Beacon(builder) {
     private var value: Any? = null;

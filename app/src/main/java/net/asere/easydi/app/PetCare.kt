@@ -1,4 +1,4 @@
-package com.madapp.easydi.app
+package net.asere.easydi.app
 
 class PetCare(
     private val dog: Dog,
